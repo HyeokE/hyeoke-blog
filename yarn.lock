@@ -2433,6 +2433,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"eventemitter3@npm:^5.0.1":
+  version: 5.0.1
+  resolution: "eventemitter3@npm:5.0.1"
+  checksum: 543d6c858ab699303c3c32e0f0f47fc64d360bf73c3daf0ac0b5079710e340d6fe9f15487f94e66c629f5f82cd1a8678d692f3dbb6f6fcd1190e1b97fcad36f8
+  languageName: node
+  linkType: hard
+
 "execa@npm:^5.0.0":
   version: 5.1.1
   resolution: "execa@npm:5.1.1"
@@ -3131,7 +3138,7 @@ __metadata:
     next-sitemap: ^3.1.32
     notion-client: ^4.10.0
     notion-types: ^6.16.0
-    notion-utils: ^4.10.0
+    notion-utils: ^6.16.0
     postcss: ^8.3.11
     preact: ^10.5.15
     prettier: ^2.7.1
@@ -3514,6 +3521,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"is-url-superb@npm:^6.1.0":
+  version: 6.1.0
+  resolution: "is-url-superb@npm:6.1.0"
+  checksum: 8a6fe5bb04eccefe47326897875f2072058bbe46a7f441fbed39860a11694bcf58db54865017110cc057961169c5f30bb2be7a154a9cffc2612bbd955d93aeb2
+  languageName: node
+  linkType: hard
+
 "is-weakmap@npm:^2.0.1":
   version: 2.0.1
   resolution: "is-weakmap@npm:2.0.1"
@@ -3855,6 +3869,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"map-age-cleaner@npm:^0.1.3":
+  version: 0.1.3
+  resolution: "map-age-cleaner@npm:0.1.3"
+  dependencies:
+    p-defer: ^1.0.0
+  checksum: cb2804a5bcb3cbdfe4b59066ea6d19f5e7c8c196cd55795ea4c28f792b192e4c442426ae52524e5e1acbccf393d3bddacefc3d41f803e66453f6c4eda3650bc1
+  languageName: node
+  linkType: hard
+
 "mdn-data@npm:2.0.14":
   version: 2.0.14
   resolution: "mdn-data@npm:2.0.14"
@@ -3866,6 +3889,16 @@ __metadata:
   version: 1.0.8
   resolution: "medium-zoom@npm:1.0.8"
   checksum: b65be8546ab255936271e15a17524677808774140199e58c4dc0bae131b504a13e481c4f483ca8a862d32636dd4996bd7ed0a005c1f6213c3c764aa03fbbc48e
+  languageName: node
+  linkType: hard
+
+"mem@npm:^9.0.2":
+  version: 9.0.2
+  resolution: "mem@npm:9.0.2"
+  dependencies:
+    map-age-cleaner: ^0.1.3
+    mimic-fn: ^4.0.0
+  checksum: 07829bb182af0e3ecf748dc2edb1c3b10a256ef10458f7e24d06561a2adc2b3ef34d14abe81678bbcedb46faa477e7370223f118b1a5e1252da5fe43496f3967
   languageName: node
   linkType: hard
 
@@ -4299,6 +4332,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"normalize-url@npm:^7.0.3":
+  version: 7.2.0
+  resolution: "normalize-url@npm:7.2.0"
+  checksum: 7753f081ee997520c9cd855f06975d7ac24b1ef58002e310d5058c831b9a6165ec2ec9fc0c5bc9e886e1257affaffa7c36731ae39073fcf74af07197997d4fb6
+  languageName: node
+  linkType: hard
+
 "notion-client@npm:^4.10.0":
   version: 4.19.8
   resolution: "notion-client@npm:4.19.8"
@@ -4325,13 +4365,26 @@ __metadata:
   languageName: node
   linkType: hard
 
-"notion-utils@npm:^4.10.0, notion-utils@npm:^4.19.8":
+"notion-utils@npm:^4.19.8":
   version: 4.19.8
   resolution: "notion-utils@npm:4.19.8"
   dependencies:
     notion-types: ^4.19.8
     p-queue: 6
   checksum: 86d00816814c5fd0c2b93d85ea4d6ba0271329950707183e4fe2562857b5d2806736ff2ae1cb45e445dd8a201a71cb088bc8cdf9158317ae1bad08b18fb76a98
+  languageName: node
+  linkType: hard
+
+"notion-utils@npm:^6.16.0":
+  version: 6.16.0
+  resolution: "notion-utils@npm:6.16.0"
+  dependencies:
+    is-url-superb: ^6.1.0
+    mem: ^9.0.2
+    normalize-url: ^7.0.3
+    notion-types: ^6.16.0
+    p-queue: ^7.2.0
+  checksum: c64b9a4f6d03f8d5a2f65836d72a39e33aab7c9236218d0bb64e8c244bc57f1fdf9bae5ba96457c687845a8cc7199c31568a153755d920b42c73d86f7fe3be86
   languageName: node
   linkType: hard
 
@@ -4520,6 +4573,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"p-defer@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "p-defer@npm:1.0.0"
+  checksum: 4271b935c27987e7b6f229e5de4cdd335d808465604644cb7b4c4c95bef266735859a93b16415af8a41fd663ee9e3b97a1a2023ca9def613dba1bad2a0da0c7b
+  languageName: node
+  linkType: hard
+
 "p-finally@npm:^1.0.0":
   version: 1.0.0
   resolution: "p-finally@npm:1.0.0"
@@ -4564,12 +4624,29 @@ __metadata:
   languageName: node
   linkType: hard
 
+"p-queue@npm:^7.2.0":
+  version: 7.4.1
+  resolution: "p-queue@npm:7.4.1"
+  dependencies:
+    eventemitter3: ^5.0.1
+    p-timeout: ^5.0.2
+  checksum: 1c6888aa994d399262a9fbdd49c7066f8359732397f7a42ecf03f22875a1d65899797b46413f97e44acc18dddafbcc101eb135c284714c931dbbc83c3967f450
+  languageName: node
+  linkType: hard
+
 "p-timeout@npm:^3.2.0":
   version: 3.2.0
   resolution: "p-timeout@npm:3.2.0"
   dependencies:
     p-finally: ^1.0.0
   checksum: 3dd0eaa048780a6f23e5855df3dd45c7beacff1f820476c1d0d1bcd6648e3298752ba2c877aa1c92f6453c7dd23faaf13d9f5149fc14c0598a142e2c5e8d649c
+  languageName: node
+  linkType: hard
+
+"p-timeout@npm:^5.0.2":
+  version: 5.1.0
+  resolution: "p-timeout@npm:5.1.0"
+  checksum: f5cd4e17301ff1ff1d8dbf2817df0ad88c6bba99349fc24d8d181827176ad4f8aca649190b8a5b1a428dfd6ddc091af4606835d3e0cb0656e04045da5c9e270c
   languageName: node
   linkType: hard
 

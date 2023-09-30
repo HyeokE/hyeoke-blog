@@ -56,7 +56,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["next-sitemap", "virtual:24826d8cdad4aa94e6509809eaf6459d7bcd5e2ae9298824a29d710ebf9a7d66c757d38f42214a78f6e7841f2815dfb7b3b74e6bf1c769d7f6c9d3179e32005f#npm:3.1.55"],\
             ["notion-client", "npm:4.19.8"],\
             ["notion-types", "npm:6.16.0"],\
-            ["notion-utils", "npm:4.19.8"],\
+            ["notion-utils", "npm:6.16.0"],\
             ["postcss", "npm:8.4.30"],\
             ["preact", "npm:10.17.1"],\
             ["prettier", "npm:2.8.8"],\
@@ -3316,6 +3316,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eventemitter3", "npm:4.0.7"]\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["npm:5.0.1", {\
+          "packageLocation": "./.yarn/cache/eventemitter3-npm-5.0.1-5e423b7df3-543d6c858a.zip/node_modules/eventemitter3/",\
+          "packageDependencies": [\
+            ["eventemitter3", "npm:5.0.1"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["execa", [\
@@ -4108,7 +4115,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["next-sitemap", "virtual:24826d8cdad4aa94e6509809eaf6459d7bcd5e2ae9298824a29d710ebf9a7d66c757d38f42214a78f6e7841f2815dfb7b3b74e6bf1c769d7f6c9d3179e32005f#npm:3.1.55"],\
             ["notion-client", "npm:4.19.8"],\
             ["notion-types", "npm:6.16.0"],\
-            ["notion-utils", "npm:4.19.8"],\
+            ["notion-utils", "npm:6.16.0"],\
             ["postcss", "npm:8.4.30"],\
             ["preact", "npm:10.17.1"],\
             ["prettier", "npm:2.8.8"],\
@@ -4545,6 +4552,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["is-url-superb", "npm:4.0.0"]\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["npm:6.1.0", {\
+          "packageLocation": "./.yarn/cache/is-url-superb-npm-6.1.0-fe9e8c546c-8a6fe5bb04.zip/node_modules/is-url-superb/",\
+          "packageDependencies": [\
+            ["is-url-superb", "npm:6.1.0"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["is-weakmap", [\
@@ -4926,6 +4940,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["map-age-cleaner", [\
+        ["npm:0.1.3", {\
+          "packageLocation": "./.yarn/cache/map-age-cleaner-npm-0.1.3-fd9e4b4aff-cb2804a5bc.zip/node_modules/map-age-cleaner/",\
+          "packageDependencies": [\
+            ["map-age-cleaner", "npm:0.1.3"],\
+            ["p-defer", "npm:1.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["mdn-data", [\
         ["npm:2.0.14", {\
           "packageLocation": "./.yarn/cache/mdn-data-npm-2.0.14-0acd669f0d-9d0128ed42.zip/node_modules/mdn-data/",\
@@ -4940,6 +4964,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/medium-zoom-npm-1.0.8-3501e0ea3f-b65be8546a.zip/node_modules/medium-zoom/",\
           "packageDependencies": [\
             ["medium-zoom", "npm:1.0.8"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["mem", [\
+        ["npm:9.0.2", {\
+          "packageLocation": "./.yarn/cache/mem-npm-9.0.2-9614a03e64-07829bb182.zip/node_modules/mem/",\
+          "packageDependencies": [\
+            ["mem", "npm:9.0.2"],\
+            ["map-age-cleaner", "npm:0.1.3"],\
+            ["mimic-fn", "npm:4.0.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -5420,6 +5455,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["normalize-url", "npm:6.1.0"]\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["npm:7.2.0", {\
+          "packageLocation": "./.yarn/cache/normalize-url-npm-7.2.0-2b0a459e68-7753f081ee.zip/node_modules/normalize-url/",\
+          "packageDependencies": [\
+            ["normalize-url", "npm:7.2.0"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["notion-client", [\
@@ -5458,6 +5500,18 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["notion-utils", "npm:4.19.8"],\
             ["notion-types", "npm:4.19.8"],\
             ["p-queue", "npm:6.6.2"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:6.16.0", {\
+          "packageLocation": "./.yarn/cache/notion-utils-npm-6.16.0-b3aab970b4-c64b9a4f6d.zip/node_modules/notion-utils/",\
+          "packageDependencies": [\
+            ["notion-utils", "npm:6.16.0"],\
+            ["is-url-superb", "npm:6.1.0"],\
+            ["mem", "npm:9.0.2"],\
+            ["normalize-url", "npm:7.2.0"],\
+            ["notion-types", "npm:6.16.0"],\
+            ["p-queue", "npm:7.4.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -5667,6 +5721,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["p-defer", [\
+        ["npm:1.0.0", {\
+          "packageLocation": "./.yarn/cache/p-defer-npm-1.0.0-4dfd0013f5-4271b935c2.zip/node_modules/p-defer/",\
+          "packageDependencies": [\
+            ["p-defer", "npm:1.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["p-finally", [\
         ["npm:1.0.0", {\
           "packageLocation": "./.yarn/cache/p-finally-npm-1.0.0-35fbaa57c6-93a654c53d.zip/node_modules/p-finally/",\
@@ -5715,6 +5778,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["p-timeout", "npm:3.2.0"]\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["npm:7.4.1", {\
+          "packageLocation": "./.yarn/cache/p-queue-npm-7.4.1-e0cf0a6f17-1c6888aa99.zip/node_modules/p-queue/",\
+          "packageDependencies": [\
+            ["p-queue", "npm:7.4.1"],\
+            ["eventemitter3", "npm:5.0.1"],\
+            ["p-timeout", "npm:5.1.0"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["p-timeout", [\
@@ -5723,6 +5795,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["p-timeout", "npm:3.2.0"],\
             ["p-finally", "npm:1.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:5.1.0", {\
+          "packageLocation": "./.yarn/cache/p-timeout-npm-5.1.0-11ca554b60-f5cd4e1730.zip/node_modules/p-timeout/",\
+          "packageDependencies": [\
+            ["p-timeout", "npm:5.1.0"]\
           ],\
           "linkType": "HARD"\
         }]\
