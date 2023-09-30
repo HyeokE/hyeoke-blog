@@ -5,6 +5,7 @@ import CONFIG from "../../morethan-log.config";
 import { NextPageWithLayout } from "./_app";
 import { TPost } from "../types";
 import { getTheme } from "@hooks/useThemeEffect";
+import generateRssFeed from "@/src/utils/rss";
 
 export async function getStaticPaths() {
   const posts = await getAllPosts({ includePages: true });
@@ -27,6 +28,8 @@ export async function getStaticProps({ params: { slug } }: any) {
       )}.png?subTitle=&theme=light&md=1&fontSize=100px&images=https%3A%2F%2Fthumbnail.hyeok.dev%2Fassets%2FblogIcon.svg`;
     };
     const image = getImage();
+
+    generateRssFeed(posts);
 
     return {
       props: { post, blockMap, image },

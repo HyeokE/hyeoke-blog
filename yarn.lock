@@ -3130,6 +3130,7 @@ __metadata:
     next: ^12.1.0
     next-sitemap: ^3.1.32
     notion-client: ^4.10.0
+    notion-types: ^6.16.0
     notion-utils: ^4.10.0
     postcss: ^8.3.11
     preact: ^10.5.15
@@ -3138,6 +3139,7 @@ __metadata:
     react-dom: ^17.0.2
     react-icons: ^4.4.0
     react-notion-x: ^4.11.0
+    rss: ^1.2.2
     tailwindcss: ^3.1.4
     typescript: ^4.9.4
   languageName: unknown
@@ -3914,6 +3916,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"mime-db@npm:~1.25.0":
+  version: 1.25.0
+  resolution: "mime-db@npm:1.25.0"
+  checksum: bf1c56d50cb5752c5495ddf2a1dd938015c58b3bc0c8d19c4cacb198322267d6fc1b944e70efec0d5215584cf1c57d58e2d4f609094ebe3e88bdf34028ca102d
+  languageName: node
+  linkType: hard
+
+"mime-types@npm:2.1.13":
+  version: 2.1.13
+  resolution: "mime-types@npm:2.1.13"
+  dependencies:
+    mime-db: ~1.25.0
+  checksum: 661db5db5900dcf8bc345d2aea9cc2bd38d53374c000e0d8d7b592230ff37ea173b9514f15bfd89efe46476f57f1785866d13060c71d12ca98c5b5a8f662ae04
+  languageName: node
+  linkType: hard
+
 "mime-types@npm:^2.1.12":
   version: 2.1.35
   resolution: "mime-types@npm:2.1.35"
@@ -4297,6 +4315,13 @@ __metadata:
   version: 4.19.8
   resolution: "notion-types@npm:4.19.8"
   checksum: 2ccb3100e73bf65738cee8d93862a9e84b2e52f82c43def289c3644693f38d4ac20de168ddabf26a52339c054a64495758fceea3ee84635e13d5451ad09c3f31
+  languageName: node
+  linkType: hard
+
+"notion-types@npm:^6.16.0":
+  version: 6.16.0
+  resolution: "notion-types@npm:6.16.0"
+  checksum: fd117741507d75f91d59abca71e7ac09d99b2cfd174721650bf874eaa3ab1d3115c198edd30852b82fc206ec8f3f4b13ade17f606f3c55878f3920a7979fbbee
   languageName: node
   linkType: hard
 
@@ -5341,6 +5366,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"rss@npm:^1.2.2":
+  version: 1.2.2
+  resolution: "rss@npm:1.2.2"
+  dependencies:
+    mime-types: 2.1.13
+    xml: 1.0.1
+  checksum: 9f823a6c1c807b4d9a800f74063d03eb188751c2e7fab36a50d5bdc33577a03562d5a610d8c809729f5a3721805a5495119c105237a87a6bb5a8a146df8b887a
+  languageName: node
+  linkType: hard
+
 "rtl-css-js@npm:^1.14.0":
   version: 1.16.1
   resolution: "rtl-css-js@npm:1.16.1"
@@ -6323,6 +6358,13 @@ __metadata:
   bin:
     xml-js: ./bin/cli.js
   checksum: 24a55479919413687105fc2d8ab05e613ebedb1c1bc12258a108e07cff5ef793779297db854800a4edf0281303ebd1f177bc4a588442f5344e62b3dddda26c2b
+  languageName: node
+  linkType: hard
+
+"xml@npm:1.0.1":
+  version: 1.0.1
+  resolution: "xml@npm:1.0.1"
+  checksum: 11b5545ef3f8fec3fa29ce251f50ad7b6c97c103ed4d851306ec23366f5fa4699dd6a942262df52313a0cd1840ab26256da253c023bad3309d8ce46fe6020ca0
   languageName: node
   linkType: hard
 

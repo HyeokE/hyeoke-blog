@@ -55,6 +55,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["next", "virtual:24826d8cdad4aa94e6509809eaf6459d7bcd5e2ae9298824a29d710ebf9a7d66c757d38f42214a78f6e7841f2815dfb7b3b74e6bf1c769d7f6c9d3179e32005f#npm:12.3.4"],\
             ["next-sitemap", "virtual:24826d8cdad4aa94e6509809eaf6459d7bcd5e2ae9298824a29d710ebf9a7d66c757d38f42214a78f6e7841f2815dfb7b3b74e6bf1c769d7f6c9d3179e32005f#npm:3.1.55"],\
             ["notion-client", "npm:4.19.8"],\
+            ["notion-types", "npm:6.16.0"],\
             ["notion-utils", "npm:4.19.8"],\
             ["postcss", "npm:8.4.30"],\
             ["preact", "npm:10.17.1"],\
@@ -63,6 +64,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-dom", "virtual:24826d8cdad4aa94e6509809eaf6459d7bcd5e2ae9298824a29d710ebf9a7d66c757d38f42214a78f6e7841f2815dfb7b3b74e6bf1c769d7f6c9d3179e32005f#npm:17.0.2"],\
             ["react-icons", "virtual:24826d8cdad4aa94e6509809eaf6459d7bcd5e2ae9298824a29d710ebf9a7d66c757d38f42214a78f6e7841f2815dfb7b3b74e6bf1c769d7f6c9d3179e32005f#npm:4.11.0"],\
             ["react-notion-x", "virtual:24826d8cdad4aa94e6509809eaf6459d7bcd5e2ae9298824a29d710ebf9a7d66c757d38f42214a78f6e7841f2815dfb7b3b74e6bf1c769d7f6c9d3179e32005f#npm:4.19.8"],\
+            ["rss", "npm:1.2.2"],\
             ["tailwindcss", "npm:3.3.3"],\
             ["typescript", "patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=289587"]\
           ],\
@@ -4105,6 +4107,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["next", "virtual:24826d8cdad4aa94e6509809eaf6459d7bcd5e2ae9298824a29d710ebf9a7d66c757d38f42214a78f6e7841f2815dfb7b3b74e6bf1c769d7f6c9d3179e32005f#npm:12.3.4"],\
             ["next-sitemap", "virtual:24826d8cdad4aa94e6509809eaf6459d7bcd5e2ae9298824a29d710ebf9a7d66c757d38f42214a78f6e7841f2815dfb7b3b74e6bf1c769d7f6c9d3179e32005f#npm:3.1.55"],\
             ["notion-client", "npm:4.19.8"],\
+            ["notion-types", "npm:6.16.0"],\
             ["notion-utils", "npm:4.19.8"],\
             ["postcss", "npm:8.4.30"],\
             ["preact", "npm:10.17.1"],\
@@ -4113,6 +4116,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-dom", "virtual:24826d8cdad4aa94e6509809eaf6459d7bcd5e2ae9298824a29d710ebf9a7d66c757d38f42214a78f6e7841f2815dfb7b3b74e6bf1c769d7f6c9d3179e32005f#npm:17.0.2"],\
             ["react-icons", "virtual:24826d8cdad4aa94e6509809eaf6459d7bcd5e2ae9298824a29d710ebf9a7d66c757d38f42214a78f6e7841f2815dfb7b3b74e6bf1c769d7f6c9d3179e32005f#npm:4.11.0"],\
             ["react-notion-x", "virtual:24826d8cdad4aa94e6509809eaf6459d7bcd5e2ae9298824a29d710ebf9a7d66c757d38f42214a78f6e7841f2815dfb7b3b74e6bf1c769d7f6c9d3179e32005f#npm:4.19.8"],\
+            ["rss", "npm:1.2.2"],\
             ["tailwindcss", "npm:3.3.3"],\
             ["typescript", "patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=289587"]\
           ],\
@@ -4989,6 +4993,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["mime-db", [\
+        ["npm:1.25.0", {\
+          "packageLocation": "./.yarn/cache/mime-db-npm-1.25.0-95b93b6da4-bf1c56d50c.zip/node_modules/mime-db/",\
+          "packageDependencies": [\
+            ["mime-db", "npm:1.25.0"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
         ["npm:1.52.0", {\
           "packageLocation": "./.yarn/cache/mime-db-npm-1.52.0-b5371d6fd2-0d99a03585.zip/node_modules/mime-db/",\
           "packageDependencies": [\
@@ -4998,6 +5009,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["mime-types", [\
+        ["npm:2.1.13", {\
+          "packageLocation": "./.yarn/cache/mime-types-npm-2.1.13-8cbe59736a-661db5db59.zip/node_modules/mime-types/",\
+          "packageDependencies": [\
+            ["mime-types", "npm:2.1.13"],\
+            ["mime-db", "npm:1.25.0"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
         ["npm:2.1.35", {\
           "packageLocation": "./.yarn/cache/mime-types-npm-2.1.35-dd9ea9f3e2-89a5b7f1de.zip/node_modules/mime-types/",\
           "packageDependencies": [\
@@ -5421,6 +5440,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/notion-types-npm-4.19.8-ceac7866a5-2ccb3100e7.zip/node_modules/notion-types/",\
           "packageDependencies": [\
             ["notion-types", "npm:4.19.8"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:6.16.0", {\
+          "packageLocation": "./.yarn/cache/notion-types-npm-6.16.0-a749577af0-fd11774150.zip/node_modules/notion-types/",\
+          "packageDependencies": [\
+            ["notion-types", "npm:6.16.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -6869,6 +6895,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["rss", [\
+        ["npm:1.2.2", {\
+          "packageLocation": "./.yarn/cache/rss-npm-1.2.2-ffab1e65a7-9f823a6c1c.zip/node_modules/rss/",\
+          "packageDependencies": [\
+            ["rss", "npm:1.2.2"],\
+            ["mime-types", "npm:2.1.13"],\
+            ["xml", "npm:1.0.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["rtl-css-js", [\
         ["npm:1.16.1", {\
           "packageLocation": "./.yarn/cache/rtl-css-js-npm-1.16.1-b3547849c7-7d9ab94209.zip/node_modules/rtl-css-js/",\
@@ -8007,6 +8044,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/wrappy-npm-1.0.2-916de4d4b3-159da4805f.zip/node_modules/wrappy/",\
           "packageDependencies": [\
             ["wrappy", "npm:1.0.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["xml", [\
+        ["npm:1.0.1", {\
+          "packageLocation": "./.yarn/cache/xml-npm-1.0.1-f50a7aeb8e-11b5545ef3.zip/node_modules/xml/",\
+          "packageDependencies": [\
+            ["xml", "npm:1.0.1"]\
           ],\
           "linkType": "HARD"\
         }]\
